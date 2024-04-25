@@ -1,9 +1,6 @@
 package com.pen;
-
-public class PenException extends Exeption {
-
-	public PenException() {
-		// TODO Auto-generated constructor stub
-	}
-
+public class PenException extends Exception {
+    public PenException(String message) {
+        super(message);
+    }
 }
